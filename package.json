@@ -1,0 +1,32 @@
+{
+  "name": "express-js-api-starter",
+  "version": "1.0.0",
+  "description": "Express Javascript API Starter",
+  "main": "src/index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/index"
+  },
+  "keywords": [
+    "Express",
+    "API",
+    "Nodejs",
+    "Sequelize",
+    "JsonWebToken"
+  ],
+  "author": "ariakm25",
+  "license": "ISC"
+}
